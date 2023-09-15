@@ -46,6 +46,22 @@
     color: transparent;
 }
 
+.mode--dark .cart__footer {
+    background-color: rgb(46, 44, 44);
+}
+
+.mode--dark .cart__footer span {   
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.mode--dark .article__content span {   
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.mode--dark .cart__empty--text {
+    color: rgba(255, 255, 255, 0.87);
+}
+
 .mode--dark .btn--darkmode {
     background-color: rgb(23, 23, 124);
 }
@@ -55,6 +71,10 @@
 }
 
 .mode--dark .footer__link i {
+    color: rgb(151, 26, 26);
+}
+
+.mode--dark .article__quantity i {
     color: rgb(151, 26, 26);
 }
 
